@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Pop-Up</title>
+	<script type="text/javascript" src="http://localhost/tutorial/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="http://localhost/tutorial/week02/js/pop-up.js"></script>
+	<link rel="stylesheet" href="css/pop-up.css">
+	<script>
+		$(document).ready(function () {
+			$('.popup').simplePopup({
+			});
+			$('.close').simpleclose({
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Demo Pop-Up</h1>
+	</header>
+	
+	<div id="main">
+		<p>Dies ist ein Text mit einem <a href="#hidden-content" class="popup">Link</a>. Er dient zum testen des Pop-Ups.</p>
+	</div>
+	
+	<div id="hidden-content" class="popup-content">
+		<p>Dieser Text sollte versteckt sein.<a href="#hidden-content" class="close">Wieder verstecken.</a></p>
+	</div>
+</body>
+</html>
