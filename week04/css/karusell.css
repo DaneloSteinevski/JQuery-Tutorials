@@ -1,0 +1,22 @@
+li {
+	list-style: none;
+    display: inline;
+}
+
+#links {
+	float: left;
+}
+
+#rechts {
+	float: right;
+}
+
+#bilder_reihe {
+	text-align: center;
+	margin-left: 2em;
+	margin-right: 3em;
+}
+
+
+
+/* habs noch nicht geschafft den rechten button neben den bilder zu platzieren */
